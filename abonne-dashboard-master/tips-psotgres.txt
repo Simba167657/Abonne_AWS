@@ -1,0 +1,8 @@
+Resources For Dealing With Postgres:-
+
+ - copy data from csv
+	ex-  \copy cities (english_name,arabic_name) FROM 'C:/users/abz0/documents/abz0/abonne-backend/sql/cities.csv' with (format csv,header true, delimiter ',');
+
+ - SHOW server_encoding;
+ - SET client_encoding TO 'UTF8';
+

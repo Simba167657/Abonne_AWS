@@ -1,0 +1,275 @@
+body {
+    direction: rtl;
+}
+
+ul{padding: 0;}
+
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    float: right !important;
+}
+header .header-social{left: auto;right: 2%;}
+.about:before{display: none}
+.about:after{
+    content: '';
+    width: 41%;
+    height: 100%;
+    background-image: url(./images/about-car-ar.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: -1;
+}
+.about .about-title{    margin-right: -30px;}
+.about .about-decribtion{    margin-right: auto;}
+.contact-text-form form .form-group .custom-btn{margin-left: 0;margin-right: -50px;position: relative;}
+footer .conten-logo{float: left}
+i.custom-select-icon{
+    right: auto;
+    left: 14%;
+}
+.radio-container label::before{
+    right: auto;
+    left: 10px;
+}
+.confirmation .facebook-link{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.cost i.custom-select-icon{
+    right: auto;
+    left: 20%;
+}
+.cost .btns a{
+    margin-right: auto;
+    margin-left: 20px;
+}
+.step-one .steps-box .names input:first-of-type{margin-right:0;margin-left: 4%;}
+/*
+    =============================
+        From 0 To 991 px
+    =============================
+*/
+
+@media(max-width: 991px) {
+.about:after{display: none}
+}
+
+/*
+    =============================
+        From 992 To large 
+    =============================
+*/
+@media (min-width:992px) {
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9 {
+        float: right;
+    }
+    .navbar-nav {
+        float: right;
+    }
+    .navbar-left {
+        float: right !important;
+    }
+   
+}
+
+
+@media (min-width:768px) {
+    .navbar-nav>li {
+        float: right;
+    }
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        float: right !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .contact-text-form form .form-group .custom-btn{
+        margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+@media (min-width: 1024px) {}
+
+@media(max-width: 1024px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 992px) and (max-width: 1024px) {}
+
+@media(min-width: 991px) {}
+
+@media(max-width: 991px) {}
+
+@media(min-width: 768px) and (max-width: 835px) {}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}
+
+@media(min-width: 748px) and (max-width: 991px) {
+}
+
+
+
+
+
+/*
+==============
+    Fonts
+==============
+
+*/
+@font-face{
+    font-family: 'Almarai-ExtraBold';
+    src:url('./fonts/app-fonts/Almarai-ExtraBold.ttf');
+    font-style: normal;
+    font-weight: 900;
+    }
+    @font-face{
+    font-family: 'Almarai-Bold';
+    src:url('./fonts/app-fonts/Almarai-Bold.ttf');
+    font-style: normal;
+    font-weight: 600;
+    }
+    @font-face{
+    font-family: 'Almarai-Regular';
+    src:url('./fonts/app-fonts/Almarai-Regular.ttf');
+    font-style: normal;
+    font-weight: 300;
+    }
+    @font-face{
+    font-family: 'Almarai-Light';
+    src:url('./fonts/app-fonts/Almarai-Light.ttf');
+    font-style: normal;
+    font-weight: 300;
+    }
+    body {
+    
+    font-size: 16px;
+    position: relative;
+    line-height: 1.6;
+    letter-spacing: .5px;
+    background-color: #e2e2e2;
+    color: #000000;
+    }
+    
+    input:focus,
+    select:focus,
+    textarea:focus {
+    outline: none;
+    box-shadow: none;
+    }
+    
+    
+    a:hover {
+    text-decoration: none
+    }
+    
+    
+    
+    input:focus,
+    .btn:focus {
+    outline: none;
+    border: none;
+    box-shadow: none
+    }
+    /*
+    ==============
+        header
+    ==============
+    */
+    
+    
+    body {
+        
+      font-size: 16px;
+      position: relative;
+      line-height: 1.6;
+      letter-spacing: .5px;
+      background-color: #e2e2e2;
+      color: #000000;
+    }
+    
+    input:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    
+    
+    a:hover {
+      text-decoration: none
+    }
+    
+    
+    
+    input:focus,
+    .btn:focus {
+      outline: none;
+      border: none;
+      box-shadow: none
+    }
+    /*
+      ==============
+          header
+      ==============
+    */
+    header{
+      height: 770px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      background-image: url(./images/1-ar.png);
+    }

@@ -1,0 +1,8 @@
+/node_modules/
+.pnp.js
+/.vscode/
+/.yarn/
+/build/
+*.log
+/logs/
+abonne.pem

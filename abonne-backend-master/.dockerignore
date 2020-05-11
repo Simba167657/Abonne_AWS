@@ -1,0 +1,10 @@
+/node_modules/
+.pnp.js
+/.vscode/
+/.yarn/
+/dist/
+*.log
+/logs/
+abonne.pem
+sql
+docs

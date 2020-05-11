@@ -1,0 +1,52 @@
+{
+  "name": "abonne",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:dev": "nodemon",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/jsonwebtoken": "^8.3.8",
+    "@types/morgan": "^1.7.37",
+    "@types/node": "^13.7.0",
+    "@types/pg": "^7.14.1",
+    "@types/winston": "^2.4.4",
+    "@yarnpkg/pnpify": "^2.0.0-rc.17",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.0.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/chai": "^4.2.8",
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
+    "@types/formidable": "^1.0.31",
+    "@types/mocha": "^7.0.1",
+    "@types/validator": "^12.0.1",
+    "aws-sdk": "^2.614.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "datalize": "^0.3.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "logform": "^2.1.2",
+    "pg": "^7.18.1",
+    "ts-node": "^8.6.2",
+    "validator": "^12.2.0",
+    "winston": "^3.2.1"
+  }
+}
