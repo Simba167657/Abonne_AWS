@@ -39,7 +39,7 @@
     "cors": "^2.8.5",
     "datalize": "^0.3.4",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-swagger-generator": "^1.1.17",
     "formidable": "^1.2.1",
     "jsonwebtoken": "^8.5.1",
